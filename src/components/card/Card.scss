@@ -1,0 +1,48 @@
+@import "../../scss/_variables.scss";
+
+.cards{
+    text-align: center;
+    background-color: $cardNavBgColor ;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(105, 105, 0);
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+
+    &:hover .card-over{
+        transform: translate(0%);
+    }
+
+    .title{
+        color: $backgroundColor ;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(0);
+
+    &:hover{
+        filter:grayscale(100)
+    }
+    }
+
+    .card-over{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 1.2rem;
+        background-color: rgba(0,0,0,0.5);
+        padding: 1rem;
+        transform: translateY(100%);
+        z-index: 1;
+        transition: transform 0.7s ease-in-out;
+    }
+}

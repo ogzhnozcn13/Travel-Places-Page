@@ -1,6 +1,9 @@
+@import "../../scss/_variables.scss";
+
 .header{
     text-align: center;
     font-size: 2rem;
     margin: 1rem;
     padding: 0.5rem;
+    color: $cardNavBgColor;
 }

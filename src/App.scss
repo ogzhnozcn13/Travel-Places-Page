@@ -1,1 +1,17 @@
-@import "./scss/reset.scss", "./scss/variables.scss";
+@import "./scss/_reset.scss", "./scss/_variables.scss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+body{
+    background-color: $backgroundColor;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: 5px 5px 3px black;
+    font-weight: 900;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: none;
+}
