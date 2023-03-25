@@ -1,4 +1,4 @@
-# LINK: ogzhnozcn13-travel-places-page.netlify.app
+# LINK: [ogzhnozcn13-travel-places-page.netlify.app]
 
 # Getting Started with Create React App
 
