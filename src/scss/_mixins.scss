@@ -1,0 +1,25 @@
+@mixin media-xsm {
+    @media screen and (min-widht: 0px) {
+        @content;
+    }
+}
+@mixin media-sm {
+    @media screen and (min-widht: 576px) {
+        @content;
+    }
+}
+@mixin media-md {
+    @media screen and (min-widht: 768px) {
+        @content;
+    }
+}
+@mixin media-lg {
+    @media screen and (min-widht: 1024px) {
+        @content;
+    }
+}
+@mixin media-xl {
+    @media screen and (min-widht: 1600px) {
+        @content;
+    }
+}
